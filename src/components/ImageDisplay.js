@@ -11,7 +11,7 @@ const ImageDisplay = (props) => {
             <div className={classes.bounce3}></div>
         </div>
     );
-
+    // Wating for the image to be loaded to display message answers (fetch is first resolved then loaded)
     let message = 'Meet Lady P, Lady D and M. Tumblr, you can ask them anything!';
     const title = RADIO_INPUTS.filter(ri => ri.inputValue === props.endpoint)[0];
 

@@ -70,9 +70,9 @@ export default function App() {
     }
 
     const imgLoadHandler = () => {
-        console.log('img loaded');
+        // console.log('img loaded');
         setFetch('loaded');
-        console.log('displaying title')
+        
     }
   return (
     <div className="App">
