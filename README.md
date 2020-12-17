@@ -1,7 +1,6 @@
 # ImaGen frontend vanilla
 see it live here: https://imagen-react.netlify.app/ 
 
-![screenshot](https://github.com/argonathmos/ImaGen_frontend_react/blob/master/Screenshot_2020-12-17%20ImaGen%20-%20React.png)
 ---
 
 ## WHAT ?
@@ -36,3 +35,7 @@ This frontend app was build using React and React DOM (17.0.1), Axios, Create Re
  
 The ImaGen_REST_API is hosted on heroku and itsefl places calls to 3rd party APIs. 
 You can find more info about the API here: https://github.com/argonathmos/ImaGen_REST_API
+
+
+
+![screenshot](https://github.com/argonathmos/ImaGen_frontend_react/blob/master/Screenshot_2020-12-17%20ImaGen%20-%20React.png)
