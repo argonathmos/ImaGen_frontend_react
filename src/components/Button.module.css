@@ -1,0 +1,51 @@
+.BtnContainer{
+    background: linear-gradient(45deg, #40BBF5 0%,#4062F6 100%);
+    border-radius:6px;
+    min-height: calc(12vh + 4px);
+    width: calc(40vw + 4px);
+    max-width: 254px;
+    /* box-shadow: -0.5em .5em rgb(224, 9, 243); */
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.5s;
+}
+.BtnContainer button{
+    border:none;
+    min-height: 12vh;
+    width: 40vw;
+    max-width: 250px;
+    padding:10px 25px; 
+    border-radius: 4px;
+    background:#272936;
+    color:#e8e9f1;
+    cursor: pointer;
+    font-size:14px;
+    transition: font-size 0.1s ease-in-out;
+    
+    
+}
+.BtnContainer:hover{
+    cursor:pointer;
+    background-image:linear-gradient(45deg, #40BBF5 10%,#ff00ff 100%);
+}
+.BtnContainer:hover button{
+    color:#fff;
+     
+    
+}
+.BtnContainer:active button{
+    background: #ff00ff;
+    color:#fff;
+    font-size:14.5px; 
+        
+}
+.BtnContainer:active{
+    background-image:linear-gradient(45deg, #40BBF5 10%,#ff00ff 100%);
+    
+}
+
+.BtnContainer:focus{
+    outline:none;
+}
