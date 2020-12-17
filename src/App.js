@@ -4,6 +4,7 @@ import axios from 'axios'
 import ImageDisplay from './components/ImageDisplay'
 import RadioInput from './components/RadioInput'
 import Button from './components/Button'
+import GithubLink from './components/GithubLink'
 // Images
 import startImg from './assets/images/start-img.jpg';
 import pixabayLogo from './assets/images/pixabay_logo_square.svg';
@@ -88,6 +89,9 @@ export default function App() {
             <Button searchTerms={DINNERS.join(' ')} btnClickHandler={btnClickHandler} fetching={fetch}>What should I eat tonight ?</Button>
             <Button searchTerms={NATURE.join(' ')} btnClickHandler={btnClickHandler} fetching={fetch}>Show me something great !</Button>
         </div> 
+
+        <GithubLink />
+
     </div>
   );
 }
