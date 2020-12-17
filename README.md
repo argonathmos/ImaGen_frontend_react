@@ -1,4 +1,4 @@
-# ImaGen frontend vanilla
+# ImaGen frontend React
 see it live here: https://imagen-react.netlify.app/ 
 
 ---
