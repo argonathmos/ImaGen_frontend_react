@@ -71,7 +71,10 @@ export default function App() {
     }
 
     const imgLoadHandler = () => {
-        // console.log('img loaded');
+        console.log(imgSrc);
+        if(imgSrc.includes('/static')){
+            return;
+        }
         setFetch('loaded');
         
     }

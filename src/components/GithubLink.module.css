@@ -46,7 +46,7 @@
     transform: scaleX(0);
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
     .githubIcon {
         left: -10px;
     }

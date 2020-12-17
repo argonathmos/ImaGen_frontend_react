@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# ImaGen frontend vanilla
+see it live here: https://imagen-vanilla.netlify.app/ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screenshot](https://github.com/argonathmos/ImaGen_frontend_vanilla/blob/master/Screenshot_2020-12-15%20Vanilla%20front-end.png)
+---
 
-## Available Scripts
+## WHAT ?
+This web application aims at helping a user navigating through life's most difficult questions, by asking three most trusted advisors: Mr Tumblr, Lady Pixabay and Lady DuckDuckGo any of the following: 
 
-In the project directory, you can run:
+- What should I eat tonight ? 
+- I want a hot drink !? 
+- No public transport today ?
+- Show me something great !
 
-### `npm start`
+The answers are generated in seconds and displayed in the form of an image! 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## HOW ?
+1. First users select who they want to get answers from (DuckDuckGo, Pixabay or Tumblr)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Then they click a button corresponding to one of the above questions, the app generates a random word corresponding to the question asked *(ex:  hotDrinks = ['tea', 'coffe', 'soup'])*.
 
-### `npm test`
+3. When a button is clicked, the application sends a request to fetch an image from ImaGen_REST_API including the random word as query parameter. *(ex: https://imagen-rest-api.herokuapp.com/pixabay?q=coffee )*.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. The app then receives a randomly generated image and displays it to the user. 
 
-### `npm run build`
+This frontend app was build using React and React DOM (17.0.1), Axios, Create React App and Netlify.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+--- 
+## WHY ?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Learning React by enhancing an existing vanilla project (vanilla version here: https://github.com/argonathmos/ImaGen_frontend_vanilla)
+- Practice communicating with a REST API through a simple, modern and fun interface. :slightly_smiling_face:
+- Implementing a build toolchain (Parcel).
+- Scratch the surface of continous deployement with Git / Netlify.
+ 
+The ImaGen_REST_API is hosted on heroku and itsefl places calls to 3rd party APIs. 
+You can find more info about the API here: https://github.com/argonathmos/ImaGen_REST_API
