@@ -1,7 +1,7 @@
 # ImaGen frontend vanilla
-see it live here: https://imagen-vanilla.netlify.app/ 
+see it live here: https://imagen-react.netlify.app/ 
 
-![screenshot](https://github.com/argonathmos/ImaGen_frontend_vanilla/blob/master/Screenshot_2020-12-15%20Vanilla%20front-end.png)
+![screenshot](https://github.com/argonathmos/ImaGen_frontend_react/blob/master/Screenshot_2020-12-17%20ImaGen%20-%20React.png)
 ---
 
 ## WHAT ?
