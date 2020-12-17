@@ -38,4 +38,4 @@ You can find more info about the API here: https://github.com/argonathmos/ImaGen
 
 
 
-![screenshot](https://github.com/argonathmos/ImaGen_frontend_react/blob/master/Screenshot_2020-12-17%20ImaGen%20-%20React.png)
+![screenshot](https://github.com/argonathmos/ImaGen_frontend_react/blob/master/screenshot_400w.png)
