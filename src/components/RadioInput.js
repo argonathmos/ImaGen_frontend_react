@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './RadioInput.module.css';
 
 const RadioInput = (props) => {

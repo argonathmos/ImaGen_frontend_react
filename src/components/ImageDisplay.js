@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './ImageDisplay.module.css';
 import { RADIO_INPUTS } from '../App';
 
 const ImageDisplay = (props) => {
-    const imgElem = <img onLoad={props.imgLoadHandler} className={classes.RandomImg} src={props.imageSrc}/>;
+    const imgElem = <img onLoad={props.imgLoadHandler} className={classes.RandomImg} src={props.imageSrc} alt='randomly generated'/>;
     const spinnerElem = (
         <div className={classes.spinner}>
             <div className={classes.bounce1}></div>
